@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  carnd-term1:
+    stdin_open: true
+    tty: true
+    image: udacity/carnd-term1-starter-kit
+    volumes:
+      - .:/src:z
+    working_dir: /src
+    ports:
+      - "8888:8888"
+    entrypoint:
+      - /run.sh
