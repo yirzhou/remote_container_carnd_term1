@@ -2,7 +2,7 @@
   "dockerComposeFile": ["./docker-compose.yml"],
   "service": "carnd-term1",
   "workspaceFolder": "/src",
-  "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+  "extensions": ["ms-python.python"],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "python.pythonPath": "/usr/local/bin/python",
@@ -18,5 +18,5 @@
     "python.linting.pydocstylePath": "/usr/local/bin/pydocstyle",
     "python.linting.pylintPath": "/usr/local/bin/pylint"
   },
-  "postCreateCommand": "pip install -r requirements.txt"
+  "postCreateCommand": "pip install -r requirements.txt",
 }
