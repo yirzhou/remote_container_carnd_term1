@@ -4,9 +4,10 @@
 
 ## Pre-reqs
 
-- Docker
-- VSCode
-- [VSCode Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extensions
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [VSCode](https://code.visualstudio.com/)
+- [VSCode Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
 
 ## How to set up
 
